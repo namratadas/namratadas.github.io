@@ -1,1 +1,170 @@
-Hello World
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Namrata Das</title>
+	<meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></link>
+	<link href="style.css" rel="stylesheet" ></link>
+
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'></link>
+	<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'></link>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:700italic,600' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<!-- Navigation bar -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#main">About Me</a></li>
+				<li><a href="#links">Links</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#extra">Extracurriculars</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Main -->
+	<section id="main">
+		<div class="main row">
+			<div class="container">
+				<div class="pic col-md-6">
+					<img src="me.jpg" alt="Namrata Das" width="485" height="576"></img>
+				</div>
+				<div class="about col-md-6">
+					<div class="name">
+						<h2>Namrata Das</h2>
+					</div>
+					<div class="code">
+						<p>
+							<span class="prompt"></span><span class="func">print</span>(welcome)<br>
+							<span class="string">Hello World! Welcome to my little corner on the web</span><br><br>
+							<span class="prompt"></span><span class="func">print</span>(my_school)<br>
+							<span class="string">I am a senior at the University of California, Berkeley. Go Bears!</span><br><br>
+							<span class="prompt"></span><span class="func">print</span>(my_interests)<br>
+							[<span class="string">'dance'</span>, <span class="string">'code'</span>, <span class="string">'UI/UX'</span>, <span class="string">'drawing'</span>]<br><br>
+							<span class="funcDef">def</span> <span class="funcName">increase_ladies_in_tech</span>():<br>
+							....<span class="func">while</span> (girls_in_tech <span class="func">!=</span> boys_in_tech):<br>
+							........raise_awareness<span class="func">++</span><br>
+							........girls_in_tech<span class="func">++</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<section id="links">
+		<div class="links">
+			<h2 class="sectionTitle">Links</h2>
+			<div class="targetIcons container-fluid">
+				<div class="row">
+					<div class="reversenonSkew iconsList">
+						<a href="https://www.linkedin.com/in/namratadas1" target="_blank">
+							<button id="linkedin">LinkedIn</button>
+						</a>
+						<a href="https://github.com/namratadas" target="_blank">
+							<button id="github">Github</button>
+						</a>
+						<a href="resume.pdf" target="_blank">
+							<button id="resume">Resume</button>
+						</a>
+						<a href="http://nammy-doodles.tumblr.com/" target="_blank">
+							<button id="portfolio">Art Portfolio</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<!-- Work -->
+	<section id="work">
+		<div class="work">
+			<h2 class="sectionTitle">Work</h2>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="companies activities container-fluid">
+						<div class="nonSkew">
+							<div class="box col-md-4">
+								<div class="logo">
+									<img src="box-logo.png" alt="Box logo" width="75" height="40"></img>
+									<h4>Summer 2014</h4>
+								</div>
+								<p>Spent 10 weeks as a Software Engineer Intern working on a new frontend feature for Box Notes.<br><br>Worked with HTML, CSS, JavaScript, and JQuery.</p>
+							</div>
+							<div class="visa col-md-4">
+								<div class="logo">
+									<img src="visa-logo.png" alt="Visa logo" width="124" height="38"></img>
+									<h4>Summer 2015</h4>
+								</div>
+								<p>Spent 10 weeks as a Software Engineer Intern working on the backend architecture in payment acceptence.<br><br>Worked with Java.</p>
+							</div>
+							<div class="appcivist col-md-4">
+								<div class="logo">
+									<img src="appcivist-logo.jpg" alt="appCivist logo" width="170" height="41"></img>
+									<h4>2015-Present</h4>
+								</div>
+								<p>Currently a frontend developer designing and creating a trends mapping feature for the <a href="http://citris-uc.org/social-apps-lab/project/appcivist/" target="_blank">AppCivist</a> application.<br><br>Working with d3.js, HTML, CSS, JavaScript, and JQuery.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Extracurriculars -->
+	<section id="extra">
+		<div class="extracurriculars">
+			<h2 class="sectionTitle">Extracurriculars</h2>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="activities container-fluid">
+						<div class="reversenonSkew">
+							<div class="mlk col-md-6">
+								<div class="logo">
+									<h3>Computer Science Class</h3>
+									<h4>2013-Present</h4>
+								</div>
+								<p>Created a after-school program at Martin Luther King Jr. Middle School that teaches young students about computers, computer science, and programming. By creating small projects through weekly lessons, we strive to foster a passion in computer science from an early age.<br><br>Our lessons have covered HTML, CSS, and Python in the past few semesters.</p>
+							</div>
+							<div class="isa col-md-6">
+								<div class="logo">
+									<h3>Indian Student Association</h3>
+									<h4>2013 - Present</h4>
+								</div>
+								<p>As the tech director of the club, helped develop and maintain the club's website. Built from HTML, CSS, Javascript, and JQuery on the front-end.<br><br>The website is continuously updated to with crucial events and dates to keep the members and student body notified.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="contact">
+			<div class="container-fluid">
+				<h2 class="sectionTitle">Contact Me</h2>
+				<div class="row">
+					<div class="info container-fluid">
+						<div class="nonSkew">
+							<p>Let's get some coffee. <span class="boldEmail">namrata.das [at] berkeley.edu</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+</body>
+</html>

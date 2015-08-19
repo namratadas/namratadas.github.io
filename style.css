@@ -1,0 +1,222 @@
+body {
+	background-color: #D3E7ED;
+}
+
+/* Navigation Bar Styling ============================================ */
+.navbar {
+	background-color: #D3E7ED;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a  {
+	color: #9ca98c;
+	font-size: 1.15em;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #517398;
+	font-weight: bold;
+}
+
+/* About Me Styling ================================================== */
+.main {
+	padding-bottom: 2em;
+	padding-top: 9em;
+	background-color: #D3E7ED;
+}
+
+.main .container .pic {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about .name h2 {
+	color: #517398;
+	font-weight: 600;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 5em;
+	padding: 20px;
+}
+
+/* Code portion ------------------------------------------------------ */
+.about .code {
+	background-color: #262c3a;
+	height: 100%;
+	padding: 1.3em;
+}
+
+.about .code p .func {
+	color: red;
+}
+
+.about .code p .funcName {
+	color: #9bce7d;
+}
+
+.about .code p .prompt:before {
+	color: #f4ac42;
+	content: ">>> "
+}
+
+.about .code p .funcDef {
+	color: #16a79d;
+	font-style: italic;
+}
+
+.about .code p .string {
+	color: #f9f1b5;
+}
+
+.about .code p {
+	color: white;
+	font-size: 1.13em;
+	font-family: 'Inconsolata';
+}
+
+/* Common styling for both Work + Extracurriculars ==================== */
+.sectionTitle {
+	color: #517398;
+	font-weight: bold;
+	font-size: 4.5em;
+	padding-left: 5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+.activities {
+	padding-top: 5em;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.activities .logo h4 {
+	display: inline-block;
+	font-size: 1em;
+	color: #9ca98c;
+	float: right;
+	font-weight: bold;
+	font-family: 'Fauna One', serif;
+}
+
+.activities .logo {
+	margin-right: 3em;
+}
+
+.activities p {
+	padding: 1.1em;
+	padding-top: 2.5em;
+	color: #262c3a;
+	font-family: 'Fauna One', serif;
+}
+
+/* Links Styling ======================================================= */
+.links .targetIcons {
+	transform: skewY(-1.5deg);
+	background-color: #f2f2f3;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	text-align: center;
+}
+
+.links .iconsList {
+	list-style-type: none;
+	text-align: center;
+	letter-spacing: 0.4em;
+}
+
+.links .iconsList {
+	display: inline-block;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	font-family: 'Fauna One', serif;
+	font-size: 1.1em;
+}
+
+.links .iconsList button {
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 3px #517398 solid;
+	padding: 5px;
+}
+
+.links .iconsList button:hover {
+	background-color: #aec0d4;
+}
+
+.links .targetIcons .iconsList a {
+	text-decoration: none;
+}
+
+/* Work Styling ======================================================== */
+.work, .extracurriculars, .contact, .links {
+	padding-top: 7em;
+	padding-bottom: 10em;
+	background-color: #D3E7ED;
+}
+
+.work h2 {
+	color: #517398;
+	font-weight: bold;
+	font-size: 4.5em;
+}
+
+.companies .logo img {
+	display: inline-block;
+}
+
+.work .companies {
+	background-color: #f2f2f3;
+	transform: skewY(1.5deg);
+	padding-bottom: 10em; 
+}
+
+.nonSkew {
+	transform: skewY(-1.5deg);
+}
+
+.reversenonSkew {
+	transform: skewY(1.5deg);
+}
+
+/* Extracurriculars Styling ========================================== */
+.extracurriculars .logo h3 {
+	font-size: 1.5em;
+	display: inline-block;
+}
+
+.extracurriculars .logo {
+	margin-right: 2em;
+}
+
+.extracurriculars .activities {
+	background-color: #f2f2f3;
+	transform: skewY(-1.5deg);
+	padding-bottom: 10em;
+}
+
+/* Contact Me Styling ================================================== */
+.contact .info, .email {
+	padding: 2em;
+}
+
+.contact .info {
+	background-color: #f2f2f3;
+	transform: skewY(1.5deg);
+	padding-bottom: 5em;
+	padding-top: 4em;
+	text-align: center;
+}
+
+.contact p {
+	font-family: 'Fauna One', serif;
+}
+
+.contact .boldEmail {
+	font-weight: bold;
+}
+
+
